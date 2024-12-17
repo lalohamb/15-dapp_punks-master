@@ -7,8 +7,8 @@
 const hre = require("hardhat");
 
 async function main() {
-  const NAME = 'Dapp Punks'
-  const SYMBOL = 'DP'
+  const NAME = 'Hood Punks'
+  const SYMBOL = 'HPNFT'
   const COST = ethers.utils.parseUnits('10', 'ether')
   const MAX_SUPPLY = 25
   const NFT_MINT_DATE = (Date.now() + 60000).toString().slice(0, 10)
